@@ -23,18 +23,32 @@
   font-family: 'Amatic SC', cursive;
   font-size: 1.5em;
 }
-
-#cuisine {
-margin: none;
+/* .active {
+  color: #5e96ff;
 }
 
-#zip {
-margin-left: 35%;
+#signUp{
+  color: #5e96ff;
 }
 
-#quadrant {
-margin-left: 90%;
+.nav navbar-nav {
+  color: #5e96ff;
+} */
+/* #home-page-links {
+  color: #5e96ff;
+} */
+
+.homePage {
+
 }
+
+#navigate{
+  background-image: url(../img/food4.jpeg);
+  background-size:cover;
+}
+
+/* color: #5e96ff; */
+
 
 #menu-example {
   max-width: 500px;
@@ -93,7 +107,7 @@ li a:hover {
 }
 
 .dropbtn {
-  background-color: #4CAF50;
+  background-color: #5e96ff;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -108,7 +122,7 @@ li a:hover {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color:#5e96ff;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -125,7 +139,7 @@ li a:hover {
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {background-color: #5e96ff;}
 
 #SignUp{
   background-color: white;
