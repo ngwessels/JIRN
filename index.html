@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class>
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -10,28 +10,25 @@
     <script src="js/scripts.js" charset="utf-8"></script>
     <title>Home</title>
   </head>
-  <body>
-
-    <div class="container">
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
+    <body class="home">
+      <div class="container">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+            </div>
+            <div id="SignUp">
+              <ul class="nav navbar-nav">
+                <li class="active" id="home-page-links"><a href="#">login </a>|<a href="signUp.html"> Signup</a></li>
+              </ul>
+            </div>
           </div>
-          <div id="SignUp">
-            <ul class="nav navbar-nav">
-              <li class="active" id="home-page-links"><a href="#">login </a>|<a href="#"> Signup</a></li>
-            </ul>
-          </div>
+        </nav>
+        <div class="row">
+          <h3 id="home-page-head">Jirn.com</h3>
         </div>
-
-      </nav>
-
-      <div class="row">
-        <h3 id="home-page-head">Menu.com</h3>
-      </div>
-      <div class="row" >
-        <input class="form-control" type="text" placeholder="City" aria-label="Search"id="home-page-search-bar">
-        <button class="icon"><i class="fas fa-search"></i></button>
+        <div class="row" >
+          <input class="form-control" type="text" placeholder="City" aria-label="Search"id="home-page-search-bar">
+          <button class="icon"> <a href="nav.html"><i class="fas fa-search"></i></button>
       </div>
     </div>
   </body>
