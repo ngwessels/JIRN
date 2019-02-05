@@ -115,7 +115,8 @@ li a:hover {
 }
 
 .dropdown {
-  position: relative;
+  margin-top: 10%;
+  /* position: relative; */
   display: inline-block;
 }
 
