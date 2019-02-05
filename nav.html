@@ -16,7 +16,7 @@
 <body id="navigate">
   <div class="container">
     <div class="jumbotron">
-      <h1>span for city search here</h1>
+      <h1>Portland</h1>
     </div>
 
     <div class="topNav">
@@ -28,7 +28,7 @@
 
       <div class="zoneDrop">
         <div class="dropdown">
-          <button class="dropbtn">Zone</button>
+          <button class="dropbtn">NorthWest</button>
           <div class="dropdown-content">
             <a href="#">North</a>
             <a href="#">NorthEast</a>
@@ -37,6 +37,39 @@
             <a href="#">SouthWest</a>
           </div>
         </div>
+        <div class="zoneDrop">
+          <div class="dropdown">
+            <button class="dropbtn">NorthEas</button>
+            <div class="dropdown-content">
+              <a href="#">North</a>
+              <a href="#">NorthEast</a>
+              <a href="#">NorthWest</a>
+              <a href="#">SouthEast</a>
+              <a href="#">SouthWest</a>
+            </div>
+          </div>
+          <div class="zoneDrop">
+            <div class="dropdown">
+              <button class="dropbtn">SouthWest</button>
+              <div class="dropdown-content">
+                <a href="#">North</a>
+                <a href="#">NorthEast</a>
+                <a href="#">NorthWest</a>
+                <a href="#">SouthEast</a>
+                <a href="#">SouthWest</a>
+              </div>
+            </div>
+            <div class="zoneDrop">
+              <div class="dropdown">
+                <button class="dropbtn">SouthEast</button>
+                <div class="dropdown-content">
+                  <a href="#">North</a>
+                  <a href="#">NorthEast</a>
+                  <a href="#">NorthWest</a>
+                  <a href="#">SouthEast</a>
+                  <a href="#">SouthWest</a>
+                </div>
+              </div>
       </div>
 
       <div class="dietDrop">
@@ -52,9 +85,15 @@
         </div>
       </div>
     </div>
+    <input id="pac-input" class="controls" type="text"
+        placeholder="Enter a location">
     <div id="map"></div>
+    <div id="infowindow-content">
+  <span id="place-name"  class="title"></span><br>
+  Place ID <span id="place-id"></span><br>
+  <span id="place-address"></span>
   </div>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAteuEixG_oC3aATC-4gb708PtScD7_-Ac&callback=initMap"
-    async defer></script>
+  </div>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAteuEixG_oC3aATC-4gb708PtScD7_-Ac&libraries=places&callback=initAutocomplete" async defer></script>
   </body>
   </html>

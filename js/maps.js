@@ -1,15 +1,3 @@
-var map;
-var input;
-var searchBox;
-
-
-function initMap() {
-  map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: 45.5122, lng: -122.6587},
-    zoom: 12
-  });
-}
-
 function initAutocomplete() {
   var map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: -33.8688, lng: 151.2195},
@@ -18,8 +6,8 @@ function initAutocomplete() {
   });
 
   // Create the search box and link it to the UI element.
-  input = document.getElementById('location');
-  searchBox = new google.maps.places.SearchBox(input);
+  var input = document.getElementById('pac-input');
+  var searchBox = new google.maps.places.SearchBox(input);
   map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
 
   // Bias the SearchBox results towards current map's viewport.
@@ -76,21 +64,3 @@ function initAutocomplete() {
     map.fitBounds(bounds);
   });
 }
-
-// document.getElementById("form1").addEventListener("submit", newLocation());
-
-
-
-
-$(document).ready(function() {
-  $("form#form1").submit(function(event) {
-    event.preventDefault();
-    console.log("IS working");
-    debugger;
-    input = document.getElementById('location');
-    console.log(input);
-
-
-  });
-
-});
