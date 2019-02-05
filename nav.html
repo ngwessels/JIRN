@@ -1,56 +1,54 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <script src="js/jquery-3.3.1.js" charset="utf-8"></script>
-    <script src="js/scripts.js" charset="utf-8"></script>
-    <title>Nav</title>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <script src="js/jquery-3.3.1.js" charset="utf-8"></script>
+  <script src="js/scripts.js" charset="utf-8"></script>
+  <title>Nav</title>
+</head>
 
-  <body id="navigate">
-    <div class="container">
-      <div class="jumbotron">
-        <h1>Portland</h1>
-      </div>
+<body id="navigate">
+  <div class="container">
+    <div class="jumbotron">
+      <h1>span for city search here</h1>
+    </div>
 
-      <div class="topNav">
+    <div class="topNav">
       <ul>
         <li><a href="index.html">Home</a></li>
-        <!-- <li><a href="nav.html">Navigate</a></li> -->
         <li><a href="menu.html">Menu</a></li>
         <li><a href="user.html">Feedback</a></li>
       </ul>
 
-
-      <!-- <ol>
-        <li>Zip</li>
-        <li>Zone</li>
-        <div class="dropdown-content">
-         <a href="#">Link 1</a>
-         <a href="#">Link 2</a>
-         <a href="#">Link 3</a>
-      </ol> -->
-      <div class="navbar">
-        <a href="#">Zip</a>
-        <a href="#">Zone</a>
+      <div class="zoneDrop">
+        <div class="dropdown">
+          <button class="dropbtn">Zone</button>
+          <div class="dropdown-content">
+            <a href="#">North</a>
+            <a href="#">NorthEast</a>
+            <a href="#">NorthWest</a>
+            <a href="#">SouthEast</a>
+            <a href="#">SouthWest</a>
+          </div>
+        </div>
       </div>
 
-      <div class="dropdown">
-        <button class="dropbtn">Dietary preferences</button>
-        <div class="dropdown-content">
-          <a href="#"><i class="fas fa-cheese"></i></a>
-          <a href="#"><i class="fas fa-bread-slice"></i></a>
-          <a href="#"><i class="fas fa-drumstick-bite"></i></a>
-          <a href="#"><i class="fas fa-seedling"></i></a>
-          <a href="#"><i class="fas fa-carrot"></i></a>
+      <div class="dietDrop">
+        <div class="dropdown">
+          <button class="dropbtn">Dietary preferences</button>
+          <div class="dropdown-content">
+            <a href="#"><i class="fas fa-cheese"></i></a>
+            <a href="#"><i class="fas fa-bread-slice"></i></a>
+            <a href="#"><i class="fas fa-drumstick-bite"></i></a>
+            <a href="#"><i class="fas fa-seedling"></i></a>
+            <a href="#"><i class="fas fa-carrot"></i></a>
+          </div>
         </div>
-     </div>
+      </div>
     </div>
-
-
   </body>
-</html>
+  </html>
