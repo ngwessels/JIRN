@@ -1,10 +1,11 @@
 #map {
   height: 600px;
   width: 600px;;
-  float: right;
-  margin-right: 4%;
-  bottom: 100px;
+  right: 11%;
+  bottom: 27%;
+  position: absolute;
 }
+
 .controls {
   background-color: #fff;
   border-radius: 2px;

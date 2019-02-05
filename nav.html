@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/maps.css">
   <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <script src="js/jquery-3.3.1.js" charset="utf-8"></script>
-  <script src="js/scripts.js" charset="utf-8"></script>
   <script type="text/javascript" src="js/maps.js"></script>
-  <link rel="stylesheet" href="css/maps.css">
+  <script src="js/scripts.js" charset="utf-8"></script>
   <title>Nav</title>
 </head>
 
@@ -25,54 +25,73 @@
         <li><a href="menu.html">Menu</a></li>
         <li><a href="user.html">Feedback</a></li>
       </ul>
+    </div>
+    <div class="row centeringRow">
+      <div class="col-md-1">
 
-      <div class="zoneDrop">
-        <div class="dropdown">
-          <button class="dropbtn">NorthWest</button>
-          <div class="dropdown-content">
-            <a href="#">North</a>
-            <a href="#">NorthEast</a>
-            <a href="#">NorthWest</a>
-            <a href="#">SouthEast</a>
-            <a href="#">SouthWest</a>
-          </div>
-        </div>
-        <div class="zoneDrop">
-          <div class="dropdown">
-            <button class="dropbtn">NorthEas</button>
-            <div class="dropdown-content">
-              <a href="#">North</a>
-              <a href="#">NorthEast</a>
-              <a href="#">NorthWest</a>
-              <a href="#">SouthEast</a>
-              <a href="#">SouthWest</a>
-            </div>
-          </div>
+      </div>
+      <div class="col-md-2">
+        <div class="row skyShift">
           <div class="zoneDrop">
             <div class="dropdown">
-              <button class="dropbtn">SouthWest</button>
+              <button class="dropbtn" id="buttonNW">NorthWest</button>
               <div class="dropdown-content">
-                <a href="#">North</a>
-                <a href="#">NorthEast</a>
-                <a href="#">NorthWest</a>
-                <a href="#">SouthEast</a>
-                <a href="#">SouthWest</a>
+                <a href="#">Andina</a>
+                <a href="#">Park Kitchen</a>
+                <a href="#">Piattino</a>
+                <a href="#">St Jack</a>
               </div>
             </div>
-            <div class="zoneDrop">
-              <div class="dropdown">
-                <button class="dropbtn">SouthEast</button>
-                <div class="dropdown-content">
-                  <a href="#">North</a>
-                  <a href="#">NorthEast</a>
-                  <a href="#">NorthWest</a>
-                  <a href="#">SouthEast</a>
-                  <a href="#">SouthWest</a>
-                </div>
+          </div>
+        </div>
+        <div class="row skyShift">
+          <div class="zoneDrop">
+            <div class="dropdown">
+              <button class="dropbtn" id="buttonNE">Southwest</button>
+              <div class="dropdown-content">
+                <a href="#">Departure</a>
+                <a href="#">Der Salom</a>
+                <a href="#">Imperial</a>
+                <a href="#">Ruth Chris Steak</a>
               </div>
+            </div>
+          </div>
+        </div>
       </div>
+      <div class="col-md-2">
+        <div class="row skyShift">
+          <div class="zoneDrop">
+            <div class="dropdown">
+              <button class="dropbtn" id="buttonSW">Northeast</button>
+              <div class="dropdown-content">
+                <a href="#">Screen Door</a>
+                <a href="#">Tapalaya</a>
+                <a href="#">Toro Bravo</a>
+                <a href="#">Tin Shed</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row skyShift">
+          <div class="zoneDrop">
+            <div class="dropdown">
+              <button class="dropbtn" id="buttonSE">SouthEast</button>
+              <div class="dropdown-content">
+                <a href="#">Kachka</a>
+                <a href="#">Le Pigeon</a>
+                <a href="#">Olympia Provisions</a>
+                <a href="#">Shalom Y'all</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-7">
 
-      <div class="dietDrop">
+      </div>
+    </div>
+
+      <!-- <div class="dietDrop">
         <div class="dropdown">
           <button class="dropbtn">Dietary preferences</button>
           <div class="dropdown-content">
@@ -83,8 +102,7 @@
             <a href="#"><i class="fas fa-carrot"></i></a>
           </div>
         </div>
-      </div>
-    </div>
+      </div> -->
     <input id="pac-input" class="controls" type="text"
         placeholder="Enter a location">
     <div id="map"></div>
