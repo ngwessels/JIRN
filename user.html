@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/masterStyles.css">
     <link rel="stylesheet" href="css/navstyles.css">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -11,16 +10,54 @@
     <script src="js/scripts.js" charset="utf-8"></script>
     <title>Nav</title>
   </head>
-    <body id="userPhoto">
+    <body>
       <div class="container">
-        <div class="jumbotron">
-          <h1>User</h1>
+
+      <a href="index.html">Home | </a><a href="nav.html">Logout</a>
+
+        <div class="row">
+          <div class="col-4">
+            <div class="card">
+              <div class="card-body">
+                <img class="card-img-top" src="imgs/robbie.jpeg" id="profilePicture">
+                <h3 class="card-title">Robbie</h3>
+                <p class="card-text">City: Portland, OR<br>Favorite Food: Mexican</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-8">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">Bio</h3>
+                <p class="card-text">My name is Robbie.</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="nav.html">Navigate</a></li>
-          <li><a href="menu.html">Menu</a></li>
-        </ul>
-    </div>
+
+        <h3 id="entriesText">Food Diary</h3>
+        <p id="newEntry"><u>New Entry</u></p>
+
+
+
+
+              <form id="entryForm">
+                <div class="form-group">
+                <label for="place" id="placeLabel">Where'd you eat?</label>
+                <input type="text" class="form-control" id="place">
+                <label for="thoughts" id="thoughtsLabel">What did you think?</label>
+                <input type="text" class="form-control" id="thoughts">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </form>
+
+
+
+        <div class="col-12" id="newEntries">
+
+
+        </div>
+
   </body>
 </html>

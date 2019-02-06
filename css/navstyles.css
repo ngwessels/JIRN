@@ -185,7 +185,7 @@ li a:hover {
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #5e96ff;}
+.dropdown:hover .dropbtn {background-color: ;}
 
 #SignUp {
   background-color: white;
@@ -195,4 +195,32 @@ li a:hover {
 .home {
   background-image:url(../imgs/food1.jpeg);
   background-size: cover;
+}
+
+.card {
+  margin-top: 25px;
+  background-color: #edeeef;
+}
+
+#entriesText {
+  margin-top: 50px;
+  color: black;
+}
+
+#newEntry {
+  color: #56aaff;
+  cursor: pointer;
+}
+
+#entryForm {
+display: none;
+}
+
+#diaryCard {
+  padding: 20px;
+  background-color: #f29393;
+}
+
+body {
+  background-color: #b7d2ff;
 }
