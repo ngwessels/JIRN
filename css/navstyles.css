@@ -18,6 +18,9 @@
   padding-bottom: 30px;
   color: #0a84ff;
 }
+#navigate {
+  background-color: #c29eb1;
+}
 
 #home-page-links {
   font-family: 'Amatic SC', cursive;
@@ -94,6 +97,8 @@ margin-top: -8%;
   height: 600px;
 }
 .jumbotron {
+  background-image: url(../imgs/jumbotron.jpeg);
+  background-size:cover;
   text-align: center;
 }
 
