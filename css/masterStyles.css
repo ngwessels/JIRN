@@ -281,4 +281,6 @@ li a:hover {
 .home {
   background-image:url(../imgs/food1.jpeg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
