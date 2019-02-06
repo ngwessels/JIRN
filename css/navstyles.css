@@ -18,9 +18,116 @@
   padding-bottom: 30px;
   color: #0a84ff;
 }
+#andina {
+  background-image: url(../imgs/andinaHome.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#darsalam {
+  background-image: url(../imgs/darsalamHome.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#departure {
+  background-image: url(../imgs/departureHome.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+#imperial {
+  background-image: url(../imgs/imperialHome.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#kachka{
+  background-image: url(../imgs/kachkaHome.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#lepigeon{
+  background-image: url(../imgs/lepigeonHome.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#lucca {
+  background-image: url(../imgs/luccaHome.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#olympia {
+  background-image: url(../imgs/olympiaHome.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#park-kitchen {
+  background-image: url(../imgs/parkHome.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#piattino {
+  background-image: url(../imgs/piattinoHome.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#screen-door {
+  background-image: url(../imgs/screenHome.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+#shalom {
+  background-image: url(../imgs/shalomHome.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#st-jack {
+  background-image: url(../imgs/jackHome.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#tapalaya {
+  background-image: url(../imgs/tapalayaHome.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#tastynalder {
+  background-image: url(../imgs/tastyHome.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#tinshed {
+  background-image: url(../imgs/tinshedHome.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#toro-bravo {
+  background-image: url(../imgs/toroHome.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:                             fixed;
+}
 
 #navigate {
-  background-color: #c29eb1;
+  background-image: url(../imgs/testBackground.jpeg);
+  background-size:
 }
 
 #home-page-links {
@@ -29,27 +136,28 @@
 }
 
 #buttonNW {
+  background-color: #2d2e2d;
   position:relative;
 }
 
 #buttonNE {
-
+  background-color: #2d2e2d;
   position:relative;
 }
 
 #buttonSW {
-
-position:relative;
+  background-color: #2d2e2d;
+  position:relative;
 }
 
 #buttonSE {
-
+  background-color: #2d2e2d;
   position:relative;
 }
 
 #userPhoto {
   background-image: url(../imgs/userExample.png);
-background-size: auto;
+  background-size: auto;
 }
 /* .active {
   color: #5e96ff;
