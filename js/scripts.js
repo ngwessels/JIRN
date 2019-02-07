@@ -48,7 +48,7 @@ $(document).ready(function(){
     var date = $("input#datetimepicker").val();
     var space = $("input#place").val();
     var thoughts = $("input#thoughts").val();
-    $("#newEntries").append("<div class=card card-default id=diaryCard>" + "<h3>" + "When: " + date + "</h3>" + "<h3 class='card-title'>" + "Where: " + space + "</h3>" + "<br>" + "<p>" + "Experience: " + thoughts + "</p>" + "</div>");
+    $("#newEntries").append("<div class=card card-default id=diaryCard>" + "<h3>" + "When: " + date + "</h3>" + "<h4 class='card-title'>" + "Where: " + space + "</h4>" + "<br>" + "<h4>" +"<u>"+ "Experience:" + "</u>" + "<p>"+thoughts+"</p>" + "</h4>" + "</div>");
     space = "";
     thoughts = "";
     $("input#place").value = "";

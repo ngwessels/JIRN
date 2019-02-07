@@ -374,13 +374,17 @@ color:white;
   background-size: cover;
   background-attachment: fixed;
 }
-#entriesText {
-  margin-top: 50px;
+#entriesText h3 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 3em;
+  margin-top: 30px;
   color: black;
 }
 
 #newEntry {
-  color: #black;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2em;
+  color: black;
   cursor: pointer;
 }
 
@@ -394,8 +398,18 @@ color:white;
 }
 
 #diaryCard {
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: left;
   padding: 20px;
-  background-color: lightgrey;
+  background-color: white;
+}
+
+#diaryCard p {
+  font-family: times;
+  font-size: 20px;
+  font-weight: normal;
 }
 .home {
   background-image:url(../imgs/food1.jpeg);
@@ -422,4 +436,9 @@ color:white;
 
 #reviewCard {
   padding: 5%;
+}
+
+.card-title-bio {
+  font-family: 'Amatic SC', cursive;
+  font-size: 3em;
 }
