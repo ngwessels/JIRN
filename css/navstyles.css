@@ -126,7 +126,7 @@
   background-attachment: fixed;
 }
 
-#navigate {
+.navigate {
   background-image: url(../imgs/testBackground.jpeg);
 }
 
@@ -234,7 +234,7 @@ li a:hover {
   margin-top: -8%;
 }
 
-#navigate h1 {
+.navigate h1 {
   font-size: 70px;
 }
 .navTron {
@@ -424,8 +424,15 @@ color:white;
 #sorry {
   color: white;
   display: none;
-  font-size: 25px;
+  font-size: 55px;
   text-align: center;
+
+}
+
+#sorryShow {
+  font-family: 'Amatic SC', cursive;
+  margin-top: 60%;
+
 }
 
 #dateAndTimeText {
