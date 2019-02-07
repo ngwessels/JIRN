@@ -28,7 +28,7 @@ function initMap() {
 var toroBravo = {
   info: '<strong>Toro Bravo</strong><br>\r\
   120 NE Russell St, Portland, OR 97212<br>\
-  <a href="www.torobravopdx.com">www.torobravopdx.com</a>',
+  <a href="http://www.torobravopdx.com">www.torobravopdx.com</a>',
   lat: 45.540780,
   long: -122.663670
 };
@@ -37,7 +37,7 @@ var toroBravo = {
 var tinShed = {
   info: '<strong>Tin Shed</strong><br>\r\
   1438 NE Alberta St Portland, OR<br>\
-  <a href="http://http://tinshedgardencafe.com">tinshedgardencafe.com</a>',
+  <a href="http://tinshedgardencafe.com">tinshedgardencafe.com</a>',
   lat: 45.558950,
   long: -122.650980
 }
@@ -52,7 +52,7 @@ var tastyNAlder = {
 var tapalaya = {
   info: '<strong>Tapalaya</strong></br>\r\
   28 NE 28th Ave Portland, OR<br>\
-  <a href="http://tapalaya.com">tapalaya.com</a>',
+  <a href="http://www.tapalaya.com/">tapalaya.com</a>',
   lat: 45.522930,
   long: -122.654690
 }
@@ -123,7 +123,7 @@ var lePigeon = {
 var kachka = {
   info: '<strong>Kachka</strong></br>\r\
   960 SE 11th Ave, Portland, OR 97214<br>\
-  <a href="kachkapdx.com">kachkapdx.com</a>',
+  <a href="https://kachkapdx.com">kachkapdx.com</a>',
   lat: 45.517930,
   long: -122.654660
 }
@@ -149,9 +149,9 @@ var darsalam = {
   long: -122.672211
 }
 var andina = {
-  info: '<strong>Andima<strong></br>\r\
+  info: '<strong>Andima</strong></br>\r\
   1314 NW Glisan St, Portland, OR 97209<br>\
-  <a href="http://wwwandinarestaurant.com/">andinarestaurant.com</a>',
+  <a href="http://www.andinarestaurant.com/">andinarestaurant.com</a>',
   lat: 45.526340,
   long: -122.684590
 }
