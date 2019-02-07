@@ -55,14 +55,25 @@ Spec: When the user clicks the "New Entry" link below the "Food Diary" text on t
 
 ## Setup/Installation Requirements
 
-1. Clone this repository @
+1. Clone this repository @ https://github.com/ngwessels/JIRN.git
 2. Use a terminal of your choice (I use Git Bash) to access the webpage and its files by inputting: "git clone {the above clone link}"
 3. Open the folder you receive and open the index.html link in the web browser of your choice (I use Google Chrome).
 
-Alternatively, click this gh-pages link to view it directly in the web browser of your choice:
+Alternatively, click this gh-pages link to view it directly in the web browser of your choice: https://ngwessels.github.io/JIRN/
 
 ## Known Bugs
-* No known bugs at this time.
+* In the console, three errors are displayed that we have not yet been able to fix:
+  * scripts.js:86 Uncaught TypeError: Cannot read property 'style' of undefined
+    at showSlides (scripts.js:86)
+    at scripts.js:61
+  * jquery-3.3.1.js:3818 jQuery.Deferred exception: $(...).datetimepicker is not a function TypeError: $(...).datetimepicker is not a function
+    at HTMLDocument.<anonymous> (file:///Users/Guest/Desktop/JIRN/js/scripts.js:40:24)
+    at mightThrow (file:///Users/Guest/Desktop/JIRN/js/jquery-3.3.1.js:3534:29)
+    at process (file:///Users/Guest/Desktop/JIRN/js/jquery-3.3.1.js:3602:12) undefined
+  * jquery-3.3.1.js:3827 Uncaught TypeError: $(...).datetimepicker is not a function
+    at HTMLDocument.<anonymous> (scripts.js:40)
+    at mightThrow (jquery-3.3.1.js:3534)
+    at process (jquery-3.3.1.js:3602)
 
 ## Technologies Used
 * HTML
