@@ -1,4 +1,4 @@
-// -
+
 function expand() {
   $(".search").toggleClass("close");
   $(".input").toggleClass("square");
@@ -9,9 +9,6 @@ function expand() {
   }
 }
 $('button').on('click', expand);
-
-
-
 $(document).ready(function(){
   $('#datetimepicker').datetimepicker();
   $("#newEntry").click(function(event){
@@ -30,9 +27,7 @@ $(document).ready(function(){
     $("input#thoughts").value = "";
     $("#entryForm").hide();
   });
-
 });
-
 
 var slideIndex = 0;
 showSlides(slideIndex);

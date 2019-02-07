@@ -20,26 +20,24 @@
             <li><a href="nav.html">Logout</a></li>
           </ul>
         </div>
-
-        <div class="row">
-          <div class="col-4">
-            <div class="card">
-              <div class="card-body">
-                <img class="card-img-top" src="imgs/robbie.jpeg" id="profilePicture">
-                <h3 class="card-title">Robbie F Kruszynski</h3>
-                <p class="card-text">City: Portland, OR<br>Favorite Cuisine: French</p>
-              </div>
+      <div class="row">
+        <div class="col-4">
+          <div class="card">
+            <div class="card-body">
+              <img class="card-img-top" src="imgs/robbie.jpeg" id="profilePicture">
+              <h3 class="card-title">Robbie F Kruszynski</h3>
+              <p class="card-text">City: Portland, OR<br>Favorite Cuisine: French</p>
             </div>
           </div>
-
-          <div class="col-8">
-            <div class="card">
-              <div class="card-body">
-                <h3 class="card-title">Bio</h3>
-                <p class="card-text">Chicago / Seattle / Portland</p>
-              </div>
-            </div>
+        </div>
+      <div class="col-8">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">Bio</h3>
+            <p class="card-text">Chicago / Seattle / Portland</p>
           </div>
+        </div>
+      </div>
       <div class="col-12">
         <div class ="card" id="entriesText">
           <h3>Food Diary</h3>
@@ -47,25 +45,18 @@
         </div>
       </div>
     </div>
-
-
-
-
-
-
-
-
-        <form id="entryForm">
-
-          <div class="form-group">
-            <label for="datetimepicker">Date & Time</label>
-            <input id="datetimepicker" type="text">
-            <input type="text" placeholder = "Where'd you eat?" class="form-control" id="place">
-            <input type="text" placeholder = "Write your review" class="form-control" id="thoughts">
-            <button type="submit" id="submitReview" class="btn">Submit</button>
-          </div>
-        </form>
-        <div class="col-12" id="newEntries">
+    <form id="entryForm">
+      <div class="card" id="reviewCard">
+        <div class="form-group">
+          <label for="datetimepicker"><span id="dateAndTimeText">Date & Time:  </span></label>
+          <input id="datetimepicker" type="text">
+          <input type="text" placeholder = "Where'd you eat?" class="form-control" id="place">
+          <input type="text" placeholder = "Write your review" class="form-control" id="thoughts">
+          <button type="submit" id="submitReview" class="btn">Submit</button>
         </div>
+      </div>
+    </form>
+    <div class="col-12" id="newEntries">
+    </div>
   </body>
 </html>

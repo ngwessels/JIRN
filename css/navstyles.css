@@ -376,3 +376,13 @@ color:black;
   margin-top: 25px;
   background-color: #edeeef;
 }
+
+#dateAndTimeText {
+  font-size: 2em;
+  font-family: 'Amatic SC', cursive;
+  color: black;
+}
+
+#reviewCard {
+  padding: 5%;
+}
