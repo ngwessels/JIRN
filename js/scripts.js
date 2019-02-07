@@ -12,10 +12,34 @@ $('button').on('click', expand);
 
 
 
+function newLocation() {
+  debugger;
+  var location = $("#location").val();
+  console.log(location);
+  if(location.includes("Maine") || location.includes("maine")){
+    localStorage.setItem("display", "No");
+    localStorage.setItem("city", location);
+    } else {
+    if (location.includes("Portland") || location.includes("portland")) {
+      localStorage.setItem("display", "Yes");
+    } else {
+      localStorage.setItem("display", "No");
+      localStorage.setItem("city", location);
+    }
+  }
+}
+
+
+
+
+
+
+
 
 $(document).ready(function(){
   $("#newEntry").click(function(event){
     event.preventDefault();
+
     $("#entryForm").show();
   });
   $("#entryForm").submit(function(event){

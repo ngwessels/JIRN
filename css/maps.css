@@ -1,6 +1,6 @@
 #map {
-  height: 600px;
-  width: 600px;;
+  height: 80%;
+  width: 80%;
   right: 11%;
   bottom: 20%;
   position: absolute;
@@ -33,6 +33,10 @@
 #infowindow-content {
   display: none;
 }
-#map #infowindow-content {
+#infowindow-content {
   display: inline;
+}
+
+#pac-input {
+  display: none;
 }
