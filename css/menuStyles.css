@@ -14,7 +14,14 @@ li {
   margin: auto;
 }
 
-/* Hide the images by default */
+.jumbotron p {
+  color: black;
+  font-size: 35px;
+  text-shadow: 50px;
+  font-weight: bold;
+
+}
+
 .mySlides {
   display: none;
 }
