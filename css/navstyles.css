@@ -122,12 +122,11 @@
   background-image: url(../imgs/toroHome.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment:                             fixed;
+  background-attachment: fixed;
 }
 
 #navigate {
   background-image: url(../imgs/testBackground.jpeg);
-  background-size:
 }
 
 #home-page-links {
@@ -137,21 +136,33 @@
 
 #buttonNW {
   background-color: #2d2e2d;
+  font-family: 'Amatic SC', cursive;
+  font-weight:400;
+  font-size: 35px;
   position:relative;
 }
 
 #buttonNE {
   background-color: #2d2e2d;
+  font-family: 'Amatic SC', cursive;
+  font-weight:400;
+  font-size: 35px;
   position:relative;
 }
 
 #buttonSW {
   background-color: #2d2e2d;
+  font-family: 'Amatic SC', cursive;
+  font-weight:400;
+  font-size: 35px;
   position:relative;
 }
 
 #buttonSE {
   background-color: #2d2e2d;
+  font-family: 'Amatic SC', cursive;
+  font-weight:400;
+  font-size: 35px;
   position:relative;
 }
 
@@ -159,62 +170,21 @@
   background-image: url(../imgs/userExample.png);
   background-size: auto;
 }
-/* .active {
-  color: #5e96ff;
-}
-
-#signUp{
-  color: #5e96ff;
-}
-
-.nav navbar-nav {
-  color: #5e96ff;
-} */
-/* #home-page-links {
-  color: #5e96ff;
-} */
-
-.homePage {
-
-}
-.zoneDrop {
-margin-top: -10%;
-}
-
-.skyShift {
-  height: 300px;
-}
-
-.centeringRow {
-  margin-top: 140px;
-}
-
-.dietDrop {
-margin-left: 80%;
-margin-top: -8%;
-}
-/* #navigate{
-  background-image: url(../img/food4.jpeg);
-  background-size:cover;
-} */
-
-/* color: #5e96ff; */
 
 
 #menu-example {
   max-width: 500px;
   height: 600px;
 }
-.jumbotron {
-  background-image: url(../imgs/jumbotron.jpeg);
-  background-size:cover;
-  text-align: center;
+
+#newEntry{
+  color:black;
+
 }
 
-.icon {
-  margin-right: 25%;
-  background-color: white;
-  border-width: none;
+#topNav a:link {
+  color: black;
+  background-color: #fffdd0;
 }
 
 ul {
@@ -230,6 +200,9 @@ li {
 }
 
 li a {
+  font-family: 'Amatic SC', cursive;
+  font-weight:400;
+  font-size: 25px;
   display: block;
   color: white;
   text-align: center;
@@ -243,9 +216,48 @@ li a:hover {
   background-color: #fffdd0;
 }
 
-.topNav {
+.zoneDrop {
+  margin-top: -10%;
 }
 
+.skyShift {
+  height: 300px;
+}
+
+.centeringRow {
+  margin-top: 140px;
+}
+
+.dietDrop {
+  margin-left: 80%;
+  margin-top: -8%;
+}
+
+.jumbotron {
+  font-family: 'Amatic SC', cursive;
+  font-weight:1000;
+  font-size: 60px;
+  background-image: url(../imgs/jumbotron.jpeg);
+  background-size:cover;
+  text-align: center;
+}
+
+#headerLinks {
+  font-size: 40px;
+  margin-right: 60%;
+  margin-bottom: 0%;
+  position: absolute;
+}
+
+#headerLinks a {
+color:black;
+
+}
+.icon {
+  margin-right: 25%;
+  background-color: white;
+  border-width: none;
+}
 
 .active {
   background-color: grey;
@@ -300,11 +312,61 @@ li a:hover {
 
 .dropdown:hover .dropbtn {background-color:  #87a96b;}
 
+.card {
+  text-align: center;
+  opacity: .90;
+}
+
+#place {
+  margin-top: 2%;
+  opacity: .85;
+}
+#thoughts{
+  margin-top: 2%;
+  opacity: .85;
+  padding-bottom: 5%;
+  padding-right: 5%;
+}
 #SignUp {
   background-color: white;
 }
 
+#submitReview{
+  margin-top: 2%;
+}
+#entriesText{
+  opacity: .85;
+  text-align: center;
+}
+#userReview{
+  background-image: url(../imgs/userBackground.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#entriesText {
+  margin-top: 50px;
+  color: black;
+}
 
+#newEntry {
+  color: #black;
+  cursor: pointer;
+}
+
+#submitReview{
+  background-color: #333;
+  color: white;
+}
+
+#entryForm {
+  display: none;
+}
+
+#diaryCard {
+  padding: 20px;
+  background-color: #f29393;
+}
 .home {
   background-image:url(../imgs/food1.jpeg);
   background-size: cover;
@@ -313,27 +375,4 @@ li a:hover {
 .card {
   margin-top: 25px;
   background-color: #edeeef;
-}
-
-#entriesText {
-  margin-top: 50px;
-  color: black;
-}
-
-#newEntry {
-  color: #56aaff;
-  cursor: pointer;
-}
-
-#entryForm {
-display: none;
-}
-
-#diaryCard {
-  padding: 20px;
-  background-color: #f29393;
-}
-
-body {
-  background-color: #b7d2ff;
 }

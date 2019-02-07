@@ -10,18 +10,22 @@
     <script src="js/scripts.js" charset="utf-8"></script>
     <title>Nav</title>
   </head>
-    <body>
+    <body id="userReview">
       <div class="container">
-
-      <a href="index.html">Home | </a><a href="nav.html">Logout</a>
+        <div class="topNav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="nav.html">Logout</a></li>
+          </ul>
+        </div>
 
         <div class="row">
           <div class="col-4">
             <div class="card">
               <div class="card-body">
                 <img class="card-img-top" src="imgs/robbie.jpeg" id="profilePicture">
-                <h3 class="card-title">Robbie</h3>
-                <p class="card-text">City: Portland, OR<br>Favorite Food: Mexican</p>
+                <h3 class="card-title">Robbie F Kruszynski</h3>
+                <p class="card-text">City: Portland, OR<br>Favorite Cuisine: French</p>
               </div>
             </div>
           </div>
@@ -30,34 +34,26 @@
             <div class="card">
               <div class="card-body">
                 <h3 class="card-title">Bio</h3>
-                <p class="card-text">My name is Robbie.</p>
+                <p class="card-text">Chicago / Seattle / Portland</p>
               </div>
             </div>
           </div>
+      <div class="col-12">
+        <div class ="card" id="entriesText">
+          <h3>Food Diary</h3>
+          <p id="newEntry"><u>New Entry</u></p>
         </div>
+      </div>
+    </div>
 
-        <h3 id="entriesText">Food Diary</h3>
-        <p id="newEntry"><u>New Entry</u></p>
-
-
-
-
-              <form id="entryForm">
-                <div class="form-group">
-                <label for="place" id="placeLabel">Where'd you eat?</label>
-                <input type="text" class="form-control" id="place">
-                <label for="thoughts" id="thoughtsLabel">What did you think?</label>
-                <input type="text" class="form-control" id="thoughts">
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </div>
-            </form>
-
-
-
+        <form id="entryForm">
+          <div class="form-group">
+            <input type="text" placeholder = "Where'd you eat?" class="form-control" id="place">
+            <input type="text" placeholder = "Write your review" class="form-control" id="thoughts">
+            <button type="submit" id="submitReview" class="btn">Submit</button>
+          </div>
+        </form>
         <div class="col-12" id="newEntries">
-
-
         </div>
-
   </body>
 </html>

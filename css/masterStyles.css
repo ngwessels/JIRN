@@ -1,11 +1,4 @@
-body {
-  background-color: pink;
-  color: #fff;
-  margin: 0;
-}
-
 #content {
-
   height: 50px;
   width: 300px;
   margin-left: 170px;
@@ -276,7 +269,6 @@ li a:hover {
 #SignUp{
   background-color: white;
 }
-
 
 .home {
   background-image:url(../imgs/food1.jpeg);

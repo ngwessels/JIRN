@@ -32,6 +32,11 @@
   position:relative;
 }
 
+#topNav a:hover{
+  color: black;
+  background-color: #fffdd0;
+}
+
 #buttonNE {
 
   position:relative;
