@@ -13,6 +13,7 @@ $('button').on('click', expand);
 
 
 function newLocation() {
+
   var location = $("#location").val();
   console.log(location);
   if(location.includes("Maine") || location.includes("maine")){
