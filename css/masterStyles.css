@@ -193,11 +193,6 @@ input {
   font-family: 'Amatic SC', cursive;
   font-size: 1.5em;
 }
-/*
-#userPhoto {
-  background-image: url(../imgs/userExample.png);
-background-size: auto;
-} */
 
 .zoneDrop {
 margin-top: -10%;
@@ -242,7 +237,6 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #lightgrey;
 }
@@ -274,7 +268,6 @@ li a:hover {
 
 .dropdown {
   margin-top: 10%;
-  /* position: relative; */
   display: inline-block;
 }
 
