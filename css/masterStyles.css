@@ -153,17 +153,18 @@ input {
   font-weight:400;
   padding-bottom: 30px;
   color: #0a84ff;
+
 }
 
 #home-page-links {
   font-family: 'Amatic SC', cursive;
   font-size: 1.5em;
 }
-
+/*
 #userPhoto {
   background-image: url(../imgs/userExample.png);
 background-size: auto;
-}
+} */
 
 .zoneDrop {
 margin-top: -10%;
@@ -271,8 +272,10 @@ li a:hover {
 }
 
 .home {
-  background-image:url(../imgs/food1.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+    background-image:url(../imgs/food1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: static;
+
 }

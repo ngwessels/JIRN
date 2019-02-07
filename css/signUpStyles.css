@@ -204,6 +204,7 @@ li a:hover {
 }
 
 .centering {
-  text-align: center;
+  margin-left: 38%;
+  text-align: left;
   color: white;
 }
