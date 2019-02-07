@@ -27,20 +27,6 @@
   background-image: url(../imgs/userExample.png);
 background-size: auto;
 }
-/* .active {
-  color: #5e96ff;
-}
-
-#signUp{
-  color: #5e96ff;
-}
-
-.nav navbar-nav {
-  color: #5e96ff;
-} */
-/* #home-page-links {
-  color: #5e96ff;
-} */
 
 .homePage {
 
@@ -53,12 +39,6 @@ margin-top: -10%;
 margin-left: 80%;
 margin-top: -8%;
 }
-/* #navigate{
-  background-image: url(../img/food4.jpeg);
-  background-size:cover;
-} */
-
-/* color: #5e96ff; */
 
 
 #menu-example {
@@ -95,7 +75,6 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #lightgrey;
 }
@@ -127,7 +106,6 @@ li a:hover {
 
 .dropdown {
   margin-top: 10%;
-  /* position: relative; */
   display: inline-block;
 }
 
