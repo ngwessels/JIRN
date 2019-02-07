@@ -1,5 +1,5 @@
 function main(input) {
-  debugger;
+
   console.log(input);
   if (input == "No") {
     // $("#navigate").hide();
