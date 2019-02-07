@@ -6,7 +6,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   margin-left: 77%;
-  margin-top: 1%
+  margin-top: 1%;
 }
 
 #content.on {
@@ -18,6 +18,7 @@
   animation-timing-function: linear;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
+
   -webkit-transition: width 0.4s ease-in-out, border-radius 0.4s ease-in-out, padding 0.2s;
   transition: width 0.4s ease-in-out, border-radius 0.4s ease-in-out, padding 0.2s;
   -webkit-transition-delay: 0.4s, 0s, 0.4s;
@@ -25,14 +26,30 @@
   -webkit-transform: translate(-100%, -50%);
   -ms-transform: translate(-100%, -50%);
   transform: translate(-100%, -50%);
+
+
+}
+@keyframes example {
+  0%     {margin-left: -124px;}
+  100%   {margin-left: 2px;}
+
+}
+
+@keyframes example2 {
+  0%     {margin-left: 2px;}
+  100%   {margin-left: -124px;}
+
 }
 
 input {
+  animation-name: example2;
+  animation-duration: 2s;
   box-sizing: border-box;
   width: 50px;
   height: 50px;
   border: 4px solid #FFFFFF;
   border-radius: 50%;
+  margin-left: -124px;
   background: none;
   color: #fff;
   font-size: 16px;
@@ -48,9 +65,15 @@ input {
   transform: translate(-100%, -50%);
 }
 
+
+
+
 .search {
+  animation-name: example2;
+  animation-duration: 2s;
   background: none;
   position: absolute;
+  margin-left: -124px;
   top: 0px;
   left: 0;
   height: 50px;
@@ -66,9 +89,13 @@ input {
   -webkit-transform: translate(-100%, -50%);
   -ms-transform: translate(-100%, -50%);
   transform: translate(-100%, -50%);
+
+
+
 }
 
 .search:before {
+
   content: "";
   position: absolute;
   width: 20px;
@@ -84,13 +111,18 @@ input {
 }
 
 .close {
+
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
   -webkit-transition-delay: 0.4s;
   transition-delay: 0.4s;
+  animation-name: example;
+  animation-duration: 2s;
+  margin-left: 2px;
 }
 
 .close:before {
+
   content: "";
   position: absolute;
   width: 27px;
@@ -103,6 +135,7 @@ input {
   transform: rotate(45deg);
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
+
 }
 
 .close:after {
@@ -139,6 +172,9 @@ input {
   -webkit-transform: translate(-100%, -50%);
   -ms-transform: translate(-100%, -50%);
   transform: translate(-100%, -50%);
+  animation-name: example;
+  animation-duration: 2s;
+  margin-left: 2px;
 }
 
 
